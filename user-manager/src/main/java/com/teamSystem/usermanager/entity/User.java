@@ -64,7 +64,7 @@ public class User {
 	
 	public boolean isValidUser() {
 		return name != null && !name.equals("") && surname != null && 
-				!surname.equals("") && fiscalCode != null && !fiscalCode.equals("") && id != null && !id.equals("");
+				!surname.equals("") && fiscalCode != null && !fiscalCode.equals("");
 	}
 	
 	public String toString() {
